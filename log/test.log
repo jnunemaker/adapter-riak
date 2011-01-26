@@ -1,0 +1,544 @@
+# Logfile created on Tue Jan 25 22:34:48 -0500 2011 by logger.rb
+D, [2011-01-25T22:47:15.784512 #65039] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:47:15.937098 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:15.990291 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:16.044996 #65039] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:47:16.267140 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:16.579649 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:16.635779 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-25T22:47:16.689152 #65039] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:17.142176 #65039] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=TL1NADiyezU6s60MxJPu9GZ6JxJ]:(407 bytes)>
+
+D, [2011-01-25T22:47:17.207953 #65039] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=C5U8mpwVE7sSQu3qlNO05WW8NSm]:(407 bytes)>
+
+D, [2011-01-25T22:47:41.872444 #65117] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:47:41.872591 #65117] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:47:42.021545 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:42.074756 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:42.127817 #65117] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:47:42.127969 #65117] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:47:42.284065 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:42.638266 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:42.692943 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-25T22:47:42.746574 #65117] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:47:43.200565 #65117] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=BXxfCPEubgZ0vuJnNkniTlWp7Ip]:(407 bytes)>
+
+D, [2011-01-25T22:47:43.200702 #65117] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:47:43.266500 #65117] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=LVqoKlXJZHSeYgIhrKhE70eSAob]:(407 bytes)>
+
+D, [2011-01-25T22:47:43.266654 #65117] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:53:50.314611 #65302] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:53:50.314761 #65302] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-25T22:53:50.314833 #65302] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:53:50.493719 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:53:50.559335 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:53:50.624775 #65302] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T22:53:50.625169 #65302] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-25T22:53:50.625271 #65302] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:53:50.840133 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:53:51.394248 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:53:51.470610 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-25T22:53:51.544222 #65302] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T22:53:52.001966 #65302] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=A0Yd5VN15fl7d2GKgqyP7SkgdKZ]:(407 bytes)>
+
+D, [2011-01-25T22:53:52.002110 #65302] DEBUG -- : robject.data = "
+--A0Yd5VN15fl7d2GKgqyP7SkgdKZ
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 1Gq7BQPc9WgnFMUXn2a5K5
+Last-Modified: Wed, 26 Jan 2011 03:53:51 GMT
+
+"baz"
+--A0Yd5VN15fl7d2GKgqyP7SkgdKZ
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 5O9fCL8Q7TsOuMScM8KfUA
+Last-Modified: Wed, 26 Jan 2011 03:53:51 GMT
+
+"bar"
+--A0Yd5VN15fl7d2GKgqyP7SkgdKZ--
+"
+
+D, [2011-01-25T22:53:52.002217 #65302] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T22:53:52.067832 #65302] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=RRJspMcHAknDz9TclElJyOXSqDc]:(406 bytes)>
+
+D, [2011-01-25T22:53:52.067973 #65302] DEBUG -- : robject.data = "
+--RRJspMcHAknDz9TclElJyOXSqDc
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: iFI919UFfOhkwVBmagiUP
+Last-Modified: Wed, 26 Jan 2011 03:53:52 GMT
+
+"bar"
+--RRJspMcHAknDz9TclElJyOXSqDc
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 6H88IZ3GHcSqEdDwNdvMXk
+Last-Modified: Wed, 26 Jan 2011 03:53:52 GMT
+
+"baz"
+--RRJspMcHAknDz9TclElJyOXSqDc--
+"
+
+D, [2011-01-25T22:53:52.068045 #65302] DEBUG -- : robject.conflict? = true
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:nil>
+
+robject.data = {"foo"=>"bar"}
+
+robject.conflict? = false
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:nil>
+
+robject.data = "value"
+
+robject.conflict? = false
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:nil>
+
+robject.data = "value"
+
+robject.conflict? = false
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:nil>
+
+robject.data = {"foo"=>"bar"}
+
+robject.conflict? = false
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:nil>
+
+robject.data = "value"
+
+robject.conflict? = false
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=PtGtKqxfMc23J2gbrrkc0M46n2Q]:nil>
+
+robject.data = "
+--PtGtKqxfMc23J2gbrrkc0M46n2Q
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: ZJAyLrSnOIHVnuUizPYZw
+Last-Modified: Wed, 26 Jan 2011 04:13:49 GMT
+
+"baz"
+--PtGtKqxfMc23J2gbrrkc0M46n2Q
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 10KN5o7vWtjzl86iCzkfp2
+Last-Modified: Wed, 26 Jan 2011 04:13:49 GMT
+
+"bar"
+--PtGtKqxfMc23J2gbrrkc0M46n2Q--
+"
+
+robject.conflict? = true
+
+robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=LMFZqZw3zlaijICpx2Ws1Rt9z73]:nil>
+
+robject.data = "
+--LMFZqZw3zlaijICpx2Ws1Rt9z73
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: DZ4tDhrjILsyJcLNer9NS
+Last-Modified: Wed, 26 Jan 2011 04:13:49 GMT
+
+"baz"
+--LMFZqZw3zlaijICpx2Ws1Rt9z73
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 4y37gzgMBthDJLCAfwp6SV
+Last-Modified: Wed, 26 Jan 2011 04:13:49 GMT
+
+"bar"
+--LMFZqZw3zlaijICpx2Ws1Rt9z73--
+"
+
+robject.conflict? = true
+
+D, [2011-01-25T23:14:17.977727 #65908] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T23:14:17.977994 #65908] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-25T23:14:17.978174 #65908] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T23:14:18.126215 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T23:14:18.182008 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T23:14:18.236021 #65908] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-25T23:14:18.236165 #65908] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-25T23:14:18.236240 #65908] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T23:14:18.450207 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T23:14:18.761181 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T23:14:18.815520 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-25T23:14:18.869921 #65908] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-25T23:14:19.310716 #65908] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=KwwJCbWtNpA2EFmOh2TrTI5pri]:(403 bytes)>
+
+D, [2011-01-25T23:14:19.310878 #65908] DEBUG -- : robject.data = "
+--KwwJCbWtNpA2EFmOh2TrTI5pri
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: QHt5m2bvoNi2T42GhdFjN
+Last-Modified: Wed, 26 Jan 2011 04:14:19 GMT
+
+"baz"
+--KwwJCbWtNpA2EFmOh2TrTI5pri
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 5COH3zq8hoDDM923S42nHH
+Last-Modified: Wed, 26 Jan 2011 04:14:19 GMT
+
+"bar"
+--KwwJCbWtNpA2EFmOh2TrTI5pri--
+"
+
+D, [2011-01-25T23:14:19.311022 #65908] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-25T23:14:19.430791 #65908] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=G09l9eOYnbVJhZ3Q6IDZqri97SC]:(407 bytes)>
+
+D, [2011-01-25T23:14:19.430953 #65908] DEBUG -- : robject.data = "
+--G09l9eOYnbVJhZ3Q6IDZqri97SC
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 5XRbu9v37nliDSrzwL6WSr
+Last-Modified: Wed, 26 Jan 2011 04:14:19 GMT
+
+"bar"
+--G09l9eOYnbVJhZ3Q6IDZqri97SC
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 2B0FPo1xpYs0LTnyfaPpjV
+Last-Modified: Wed, 26 Jan 2011 04:14:19 GMT
+
+"baz"
+--G09l9eOYnbVJhZ3Q6IDZqri97SC--
+"
+
+D, [2011-01-25T23:14:19.431101 #65908] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:28:28.278430 #14472] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-26T00:28:28.278572 #14472] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-26T00:28:28.278646 #14472] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:28:28.551356 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:28:28.659068 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:28:28.788507 #14472] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-26T00:28:28.788631 #14472] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-26T00:28:28.788699 #14472] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:28:29.086817 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:28:29.692377 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:28:29.817435 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-26T00:28:29.922161 #14472] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:28:30.756845 #14472] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=R10WQBHgOhmuMST1KqYHO8yR4ai]:(407 bytes)>
+
+D, [2011-01-26T00:28:30.756992 #14472] DEBUG -- : robject.data = "
+--R10WQBHgOhmuMST1KqYHO8yR4ai
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 69H0ytf4eXH029QpFQJdYj
+Last-Modified: Wed, 26 Jan 2011 05:28:30 GMT
+
+"baz"
+--R10WQBHgOhmuMST1KqYHO8yR4ai
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 7MQa7kb4HlVHKA8zCj0F5c
+Last-Modified: Wed, 26 Jan 2011 05:28:30 GMT
+
+"bar"
+--R10WQBHgOhmuMST1KqYHO8yR4ai--
+"
+
+D, [2011-01-26T00:28:30.757111 #14472] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:28:30.871671 #14472] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=VeQtvl1RdYzHkcE6X1vLPLIkXdj]:(407 bytes)>
+
+D, [2011-01-26T00:28:30.871817 #14472] DEBUG -- : robject.data = "
+--VeQtvl1RdYzHkcE6X1vLPLIkXdj
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 7EgCmatUynwPq3zGDkaevf
+Last-Modified: Wed, 26 Jan 2011 05:28:30 GMT
+
+"bar"
+--VeQtvl1RdYzHkcE6X1vLPLIkXdj
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 6u661VdYBRJc8fVKvIkwNv
+Last-Modified: Wed, 26 Jan 2011 05:28:30 GMT
+
+"baz"
+--VeQtvl1RdYzHkcE6X1vLPLIkXdj--
+"
+
+D, [2011-01-26T00:28:30.871889 #14472] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:29:09.509423 #14556] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-26T00:29:09.509562 #14556] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-26T00:29:09.509635 #14556] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:29:09.773507 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:29:09.899767 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:29:09.968508 #14556] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/key [application/json]:{"foo"=>"bar"}>
+
+D, [2011-01-26T00:29:09.968772 #14556] DEBUG -- : robject.data = {"foo"=>"bar"}
+
+D, [2011-01-26T00:29:09.968908 #14556] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:29:10.261165 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:29:10.882354 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:29:10.985355 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value2"'
+D, [2011-01-26T00:29:11.058038 #14556] DEBUG -- : LogBuddy caught an exception: 705: unexpected token at '"value"'
+D, [2011-01-26T00:29:11.927812 #14556] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=YUIQCSIYv1W0wCkffNCNk6lcfkj]:(406 bytes)>
+
+D, [2011-01-26T00:29:11.927960 #14556] DEBUG -- : robject.data = "
+--YUIQCSIYv1W0wCkffNCNk6lcfkj
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 6LnrM1wA1KYb0mmAAObE51
+Last-Modified: Wed, 26 Jan 2011 05:29:11 GMT
+
+"bar"
+--YUIQCSIYv1W0wCkffNCNk6lcfkj
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: b3xVF4bpzBLlKAZYQA5yr
+Last-Modified: Wed, 26 Jan 2011 05:29:11 GMT
+
+"baz"
+--YUIQCSIYv1W0wCkffNCNk6lcfkj--
+"
+
+D, [2011-01-26T00:29:11.928033 #14556] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:29:12.039489 #14556] DEBUG -- : robject = #<Riak::RObject http://127.0.0.1:9000/riak/adapter_spec/foo [multipart/mixed; boundary=WaaDl00ix0vSSVqa99OkW6SY6vm]:(407 bytes)>
+
+D, [2011-01-26T00:29:12.039629 #14556] DEBUG -- : robject.data = "
+--WaaDl00ix0vSSVqa99OkW6SY6vm
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 4HarAceRmOGoZTBhWuI9Io
+Last-Modified: Wed, 26 Jan 2011 05:29:12 GMT
+
+"baz"
+--WaaDl00ix0vSSVqa99OkW6SY6vm
+Content-Type: application/json
+Link: </riak/adapter_spec>; rel="up"
+Etag: 1OBsIZlowvrWPMqtFrJMgU
+Last-Modified: Wed, 26 Jan 2011 05:29:12 GMT
+
+"bar"
+--WaaDl00ix0vSSVqa99OkW6SY6vm--
+"
+
+D, [2011-01-26T00:29:12.039701 #14556] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:46.359153 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:46.610087 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:46.737421 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:46.826892 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:47.094448 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:47.672392 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:47.801018 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:47.950149 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:48.680828 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:39:48.791171 #15880] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:14.180073 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:14.180207 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:14.435302 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:14.435672 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:14.534702 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:14.534961 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:14.630747 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:14.631121 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:14.948692 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:14.948828 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:15.500589 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:15.500983 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:15.630144 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:15.630269 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:15.768322 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:15.768496 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:16.534502 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:16.534632 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:16.644604 #15976] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter_spec>
+
+D, [2011-01-26T00:40:16.644748 #15976] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:48.633267 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:48.633404 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:48.917448 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:48.917585 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:49.019068 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:49.019188 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:49.119558 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:49.119841 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:49.377493 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:49.377683 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:49.961093 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:49.961277 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:50.057357 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:50.058145 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:40:50.185511 #16078] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:40:50.185671 #16078] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:29.281527 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:29.281659 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:29.543477 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:29.543715 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:29.639300 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:29.639576 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:29.737524 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:29.737773 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:30.051211 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:30.051372 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:30.635175 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:30.635300 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:30.736848 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:30.736969 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:30.918814 #16165] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:30.918998 #16165] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:58.782914 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:58.783046 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:59.037634 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:59.037880 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:59.136586 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:59.136885 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:59.235531 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:59.235667 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:41:59.523191 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:41:59.523328 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:00.123875 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:00.124022 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:00.258431 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:00.258551 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:00.360675 #16249] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:00.360805 #16249] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:13.817392 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:13.817523 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:14.075182 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:14.075420 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:14.173224 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:14.173568 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:14.271677 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:14.271954 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:14.585660 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:14.585921 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:15.151859 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:15.152152 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:15.297257 #16330] DEBUG -- : robject.bucket = #<Riak::Bucket http://127.0.0.1:9000/riak/adapter2_spec>
+
+D, [2011-01-26T00:42:15.297377 #16330] DEBUG -- : robject.conflict? = true
+
+D, [2011-01-26T00:42:15.523324 #16330] DEBUG -- : LogBuddy caught an exception: private method `split' called for nil:NilClass

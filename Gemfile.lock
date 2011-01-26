@@ -1,0 +1,46 @@
+PATH
+  remote: .
+  specs:
+    adapter-riak (0.5)
+      activesupport (~> 3.0.3)
+      adapter (~> 0.5.1)
+      riak-client (~> 0.8.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.3)
+    adapter (0.5.1)
+    builder (2.1.2)
+    curb (0.7.9)
+    diff-lcs (1.1.2)
+    i18n (0.5.0)
+    log_buddy (0.5.0)
+    riak-client (0.8.3)
+      builder (~> 2.1.2)
+      i18n (>= 0.4.0)
+    rspec (2.4.0)
+      rspec-core (~> 2.4.0)
+      rspec-expectations (~> 2.4.0)
+      rspec-mocks (~> 2.4.0)
+    rspec-core (2.4.0)
+    rspec-expectations (2.4.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.4.0)
+    timecop (0.3.5)
+    yajl-ruby (0.7.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (~> 3.0.3)
+  adapter (~> 0.5.1)
+  adapter-riak!
+  curb
+  i18n (= 0.5.0)
+  log_buddy (~> 0.5.0)
+  riak-client (~> 0.8.3)
+  rspec (~> 2.3)
+  timecop (~> 0.3.5)
+  yajl-ruby
