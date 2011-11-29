@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'adapter', '~> 0.5.1'
-  s.add_dependency 'riak-client', '~> 0.8.3'
+  s.add_dependency 'riak-client', '~> 0.9.8'
   s.add_dependency 'activesupport', '~> 3.0.3'
 end

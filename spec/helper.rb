@@ -19,13 +19,13 @@ require 'adapter/spec/json_adapter'
 require 'adapter/spec/types'
 
 require 'riak'
-require 'support/test_server'
+# require 'support/test_server'
 
 logger = Logger.new(log_path.join('test.log'))
 LogBuddy.init(:logger => logger)
 
 Rspec.configure do |c|
   c.before(:each) do
-    $test_server.recycle
+    # $test_server.recycle
   end
 end

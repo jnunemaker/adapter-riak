@@ -3,7 +3,7 @@ require 'adapter/riak'
 
 describe "Riak adapter" do
   before(:each) do
-    @client = Riak::Client.new(:port => 9000)['adapter_spec']
+    @client = Riak::Client.new['adapter_spec']
     @client.allow_mult = false
     @adapter = Adapter[:riak].new(@client)
     @adapter.clear
@@ -17,7 +17,7 @@ describe "Riak adapter" do
   describe "reading key with conflicts" do
     before(:each) do
       client.allow_mult = true
-      other_adapter = Adapter[:riak].new(Riak::Client.new(:port => 9000)['adapter_spec'])
+      other_adapter = Adapter[:riak].new(Riak::Client.new['adapter_spec'])
 
       threads = []
       threads << Thread.new { adapter.write('foo', 'bar') }
